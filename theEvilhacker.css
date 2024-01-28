@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding:0%;
+
+}
+.maincontainer{
+    background-color: silver;
+    width: 950px;
+    height:500px;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    /*margin:auto;*/ /*to make it center*/
+}
+.bluerect{
+    background-color:blue;
+    width: 920px;
+    height:150px; 
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+.redrect{
+    background-color: red;
+    width:150px;
+    height: 250px;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 10px;
+
+}
+.subcontainer{
+    background-color: yellow;
+    width: 780px;
+    height: 290px;
+    position: relative;
+    margin-top: 170px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-self: center;
+}   
+.purplerect1{
+    background-color: purple;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    align-self: center;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin: bottom 20px;
+    
+    
+}
+.purplerect2{
+    background-color: purple;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    align-self: center;
+    margin-left: 440px;
+    margin-top: 100px;
+}
+.purplerect3{
+    background-color: purple;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    align-self: center;
+    margin-left: 680px;
+    margin-top: 100px;
+}
+.pinkrect{
+    background-color: pink;
+    width: 660px;
+    height: 80px;
+    position: absolute;
+    align-self: self-end;
+    margin-left: 200px;
+    margin-bottom:25px;
+} 
+.maincontainer{
+    display: flex;   
+}
+
+
